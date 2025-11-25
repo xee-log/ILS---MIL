@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+<head>
+    <link rel="stylesheet" href="milstyle.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu {
+          background-color: #f9f5f0;
+          padding: 3rem 2rem;
+          text-align: center;
+        }
+ 
+        .menu h3 {
+          color: #8b4513;
+          margin-bottom: 1rem;
+          font-size: 1.8rem;
+        }
+ 
+        .menu > p {
+          max-width: 600px;
+          margin: 0 auto 2rem;
+        }
+ 
+        .menu-items {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 2rem;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+ 
+        .menu-item {
+          background: white;
+          border-radius: 10px;
+          padding: 1.5rem;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          text-align: center;
+          transition: transform 0.3s ease;
+        }
+ 
+        .menu-item:hover {
+          transform: translateY(-5px);
+        }
+ 
+        .menu-item img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-bottom: 1rem;
+        }
+ 
+        .menu-item h4 {
+          color: #8b4513;
+          margin-bottom: 0.5rem;
+          font-size: 1.2rem;
+        }
+ 
+        .menu-item p {
+          color: #666;
+          line-height: 1.5;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr. Brewsko</title>
+</head>
+<body>
+ 
+  <header>
+    <div class="navbar">
+      <h1>🧋 Mr. Brewsko</h1>
+      <nav>
+        <ul>
+          <li><a href="#promo">Promo</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+       
+      </div>
+    </div>
+    <div class="promo-bar">
+      <span class="tag">LIMITED TIME</span>
+      <p>🎉 Buy 2 Get 1 FREE on all Classic Milk Teas! Valid until Nov 30, 2025</p>
+    </div>
+  </header>
+ 
+ 
+  <section class="hero">
+    <div class="hero-content">
+      <div class="text">
+        <h2>Welcome to Mr. Brewsko!</h2>
+        <p>
+          Experience the perfect blend of premium tea leaves, fresh milk, and handcrafted flavors. Each cup is made with love and the finest ingredients to bring you the ultimate bubble tea experience.
+        </p>
+      </div>
+      <div class="image">
+        <img src="img/frappe.jfif" alt="Boba Drinks" />
+      </div>
+    </div>
+  </section>
+ 
+  <section class="services" id="services">
+    <h3>Our Services</h3>
+    <p>We're committed to providing you with the best bubble tea experience through our quality services.</p>
+    <div class="service-boxes">
+      <div class="box">🛍️ <p>Fresh Ingredients</p></div>
+      <div class="box">⏱️ <p>Quick Service</p></div>
+      <div class="box">✨ <p>Premium Taste</p></div>
+      <div class="box">👩‍🍳 <p>Friendly Staff</p></div>
+    </div>
+  </section>
+ 
+ 
+  <section class="menu" id="menu">
+    <h3>Our Menu</h3>
+    <p>Explore our delicious selection of handcrafted bubble teas, made fresh daily with premium ingredients.</p>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=200&h=200&fit=crop" alt="Classic Milk Tea">
+        <h4>Classic Milk Tea</h4>
+        <p>Original black tea with fresh milk and tapioca pearls</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=200&h=200&fit=crop" alt="Brown Sugar Boba">
+        <h4>Brown Sugar Boba</h4>
+        <p>House made brown sugar syrup with fresh milk</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=200&h=200&fit=crop" alt="Matcha Latte">
+        <h4>Matcha Latte</h4>
+        <p>Premium Japanese matcha with creamy milk foam</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=200&h=200&fit=crop" alt="Fruit Tea Series">
+        <h4>Fruit Tea Series</h4>
+        <p>Fresh fruit-infused tea with your choice of toppings</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&h=200&fit=crop" alt="Taro Milk Tea">
+        <h4>Taro Milk Tea</h4>
+        <p>Sweet taro flavor with chewy boba pearls</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&h=200&fit=crop" alt="Cheese Foam Tea">
+        <h4>Cheese Foam Tea</h4>
+        <p>Tea topped with creamy salted cheese foam</p>
+      </div>
+    </div>
+  </section>
+ 
+  <footer id="contact">
+    <div class="footer-content">
+      <p>📍 662 National Road Angono, Taytay, 1920 Rizal Taytay</p>
+      <p>📞 Call us: (63+) 965-831-1869</p>
+      <p>&copy; 2025 Mr. Brewsko. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navLinks = document.querySelectorAll('nav a');
+     
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+         
+          const targetId = this.getAttribute('href').substring(1);
+          let targetElement;
+         
+          if (targetId === 'promo') {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          } else if (targetId === 'services') {
+            targetElement = document.getElementById('services');
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          } else if (targetId === 'menu') {
+            targetElement = document.getElementById('menu');
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          } else if (targetId === 'contact') {
+            targetElement = document.getElementById('contact');
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+ 
+ 
+</body>
+</html>
